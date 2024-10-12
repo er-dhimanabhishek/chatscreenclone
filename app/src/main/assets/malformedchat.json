@@ -1,0 +1,42 @@
+[{
+  {
+    "id": 1,
+    "senderId": "sender",
+    "senderName": "John Doe",
+    "receiverId": "receiver",
+    "receiverName": "Jane Smith",
+    "messageType": "text",
+    "messageContent": "Hey, how's it going?",
+    "timestamp": 1625490000000
+  },
+  {
+    "id": 2,
+    "senderId": "receiver",
+    "senderName": "Jane Smith",
+    "receiverId": "sender",
+    "receiverName": "John Doe",
+    "messageType": "text",
+    "messageContent": "Not too bad! How about you?",
+    "timestamp": 1625490060000
+  },
+  {
+    "id": 3,
+    "senderId": "sender",
+    "senderName": "John Doe",
+    "receiverId": "receiver",
+    "receiverName": "Jane Smith",
+    "messageType": "text",
+    "messageContent": "I'm doing well, just got back from a trip.",
+    "timestamp": 1625490120000
+  },
+  {
+    "id": 4,
+    "senderId": "receiver",
+    "senderName": "Jane Smith",
+    "receiverId": "sender",
+    "receiverName": "John Doe",
+    "messageType": "text",
+    "messageContent": "Nice! Where did you go?",
+    "timestamp": 1625490180000
+  }
+]

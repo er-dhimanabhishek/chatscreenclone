@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_naviagtion"
+    app:startDestination="@id/quickSellHomeFragment">
+
+    <fragment
+        android:id="@+id/quickSellHomeFragment"
+        android:name="com.example.quicksellandroidtakehomeassignment.HomeFragment"
+        android:label="fragment_chat_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_quickSellHomeFragment_to_quickSellChatFragment"
+            app:destination="@id/quickSellChatFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"
+            app:popUpTo="@id/quickSellChatFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/quickSellChatFragment"
+        android:name="com.example.quicksellandroidtakehomeassignment.ChatFragment"
+        android:label="fragment_chat_current"
+        tools:layout="@layout/fragment_chat">
+
+    </fragment>
+
+</navigation>
