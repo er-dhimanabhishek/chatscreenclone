@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/quickSellHomeFragment"
-        android:name="com.example.quicksellandroidtakehomeassignment.HomeFragment"
+        android:name="com.example.androidtakehomeassignment.HomeFragment"
         android:label="fragment_chat_home"
         tools:layout="@layout/fragment_home">
 
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/quickSellChatFragment"
-        android:name="com.example.quicksellandroidtakehomeassignment.ChatFragment"
+        android:name="com.example.androidtakehomeassignment.ChatFragment"
         android:label="fragment_chat_current"
         tools:layout="@layout/fragment_chat">
 

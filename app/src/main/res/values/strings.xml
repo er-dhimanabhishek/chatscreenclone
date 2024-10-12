@@ -4,4 +4,5 @@
     <string name="quick_sell_hint_type_a_message">Type a message</string>
     <string name="quick_sell_sender_abhishek_dhiman">Abhishek Dhiman</string>
     <string name="quick_sell_sender_last_seen">Last seen today 11:00 AM</string>
+    <string name="quick_sell_back_navigation">back navigation</string>
 </resources>

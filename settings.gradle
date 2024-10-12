@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "QuickSell - Android Take-Home Assignment"
+rootProject.name = "Android Take-Home Assignment"
 include ':app'

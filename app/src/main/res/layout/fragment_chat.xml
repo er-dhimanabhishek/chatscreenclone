@@ -30,21 +30,37 @@
                 android:layout_height="match_parent"
                 android:padding="4dp">
 
-                <com.google.android.material.imageview.ShapeableImageView
+                <RelativeLayout
                     android:id="@+id/quickSellProfilePic"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:background="@color/white"
-                    app:shapeAppearanceOverlay="@style/circleImageView"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    android:layout_alignParentStart="true"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true">
+
+                    <ImageView
+                        android:id="@+id/quickSellChatBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:src="@drawable/ic_back_nav"
+                        android:layout_alignParentStart="true"
+                        android:contentDescription="@string/quick_sell_back_navigation"/>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@color/white"
+                        android:layout_toEndOf="@+id/quickSellChatBack"
+                        app:shapeAppearanceOverlay="@style/circleImageView"
+                        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                </RelativeLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center_vertical"
-                    android:layout_marginStart="4dp"
+                    android:layout_marginStart="8dp"
                     android:layout_marginEnd="4dp"
                     android:layout_toEndOf="@+id/quickSellProfilePic">
 
